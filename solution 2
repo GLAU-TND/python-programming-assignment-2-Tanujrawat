@@ -1,0 +1,11 @@
+# with the help of list comprehension and join
+l = [23,12,54,7,34]
+s = [str(i) for i in l]
+r = str("".join(s))
+l1 = []
+for i in r:
+    l1.append(int(i))
+l1.sort(reverse = True)
+s1 = [str(j) for j in l1]
+r1 = int("".join(s1))
+print(r1)
